@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2440478174189850051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6741652784037864545}
+  - component: {fileID: 5303118428830078867}
+  - component: {fileID: 7367748419779903426}
+  m_Layer: 0
+  m_Name: Watermelon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6741652784037864545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440478174189850051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 122.06735, y: 62.8614, z: 149.23991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 730282419768907230}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5303118428830078867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440478174189850051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae388ebc3363b514fa32e584a36d9bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterMelon
+--- !u!65 &7367748419779903426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440478174189850051}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0423508, y: 0.6669922, z: 0.49635315}
+  m_Center: {x: 0.8676262, y: 1.5792732, z: -1.0353622}
+--- !u!1001 &804380723919312119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6741652784037864545}
+    m_Modifications:
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.54469126
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.314315
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3373335
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8499985
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5700035
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.050003
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.74490094
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008415017
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66707957
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.007535884
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.294
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -83.691
+      objectReference: {fileID: 0}
+    - target: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 738615975344626579, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+      propertyPath: m_Name
+      value: Watermelon
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7179186607109121381, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+    - {fileID: 7601790058234923041, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+--- !u!4 &730282419768907230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 75373705695854889, guid: a5b8f9c9d31b25f4880873967c93bdc9, type: 3}
+  m_PrefabInstance: {fileID: 804380723919312119}
+  m_PrefabAsset: {fileID: 0}

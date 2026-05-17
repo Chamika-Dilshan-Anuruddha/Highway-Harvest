@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class carcontroller : MonoBehaviour
@@ -19,6 +20,10 @@ public class carcontroller : MonoBehaviour
     public List<Axleinfo> AxleInfos = new List<Axleinfo>();
     public float maxMortorTorque;
     public float maxSteeringAngle;
+    public Rigidbody rb;
+
+    public float normalLinearDamping = 0.5f;
+    public float driftLinearDamping = 0.001f;
 
     // wheel rotating and wheel turning showing
     public void ApplyLocalPositionToVisual(WheelCollider collider)
@@ -45,7 +50,18 @@ public class carcontroller : MonoBehaviour
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
         foreach (Axleinfo axleinfo in AxleInfos)
-        {
+        {   
+
+            // Shift key press
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                rb.linearDamping = driftLinearDamping;
+            }
+            else
+            {
+                rb.linearDamping = normalLinearDamping;
+            }
+
             if (axleinfo.steering == true)
             {
                 axleinfo.leftWheel.steerAngle = steering;
