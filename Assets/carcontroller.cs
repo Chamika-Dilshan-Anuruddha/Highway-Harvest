@@ -2,9 +2,17 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using static Unity.Collections.Unicode;
 
 public class carcontroller : MonoBehaviour
 {
+    public Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
     [System.Serializable]
     public class Axleinfo
     {
@@ -20,7 +28,6 @@ public class carcontroller : MonoBehaviour
     public List<Axleinfo> AxleInfos = new List<Axleinfo>();
     public float maxMortorTorque;
     public float maxSteeringAngle;
-    public Rigidbody rb;
 
     public float normalLinearDamping = 0.5f;
     public float driftLinearDamping = 0.001f;
@@ -48,6 +55,7 @@ public class carcontroller : MonoBehaviour
     {
         float motor = maxMortorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+
 
         foreach (Axleinfo axleinfo in AxleInfos)
         {   
@@ -81,4 +89,14 @@ public class carcontroller : MonoBehaviour
         }
 
     }
+
+    private void Update()
+    {
+        if (GameManager.instance == null) return;
+        if (transform.up.y < 0.2f)
+        {
+            GameManager.instance.TruckCrashed();
+        }
+    }
+
 }
