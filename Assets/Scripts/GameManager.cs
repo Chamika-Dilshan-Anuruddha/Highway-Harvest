@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI needMoreText;
 
     public int requiredFruits = 200;
-    public int requiredstrawberrys = 40;
+    public int requiredstrawberrys = 35;
 
     public void Start()
     {
