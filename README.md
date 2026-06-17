@@ -68,7 +68,8 @@ git clone https://github.com/Chamika-Dilshan-Anuruddha/Highway-Harvest.git
 ### 2. Open in Unity Hub
 
 - Open **Unity Hub**
-- Click  **Open** -> select the cloned project folder
+- Click  **Add** -> Add project from disk -> select the cloned project folder -> Double click on that
+- File -> Open Scene -> Assets -> Scenes -> select `SampleScene.unity` -> Open
 - Make sure Editor version **6000.2.7f2** is installed
 
 
