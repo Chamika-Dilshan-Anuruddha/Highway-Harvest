@@ -19,7 +19,7 @@ Heighway Harverst is a Unity  3D game where the player drives a pickup jeep thro
 
 ```
 🛻 Drive the farm deep down the village route
-🍌 Collect apples, bananas, wartermelons, and  strawberries
+🍓 Collect apples, bananas, wartermelons, and  strawberries
 🐻 Aviod rocks, bears and Wolves on the road
 🏁 Reach the destination with alteast 200 fuits with at least 35 strawberries to complete the level
 ```
@@ -38,14 +38,14 @@ Heighway Harverst is a Unity  3D game where the player drives a pickup jeep thro
 
 ## Features
 
-- **Vehicle Physics** - realistic jeep with Wheel Coliders and custom car controller script
-- **Thired-person camera** - Cinemachine FreeLook camera that avoids obstacles 
-- **Road system** - winding village roads with railings built using Road Architect 
-- **Rich environment** - terrain with grass, flowers, conifer trees, and country houses 
-- **Animated wildlife** - bears and wolves placed along the route 
-- **Collectible fruits** - apples, bananas, watermelons, and strawberries with rigger colliders
-- **Score UI** - on-screen fruit count with icons for each fruit type 
-- **Modular scripts** - separate scripts for fruit logic, vehicle inverntory and UI display 
+- 🛻**Vehicle Physics** - realistic jeep with Wheel Coliders and custom car controller script
+- 📷**Thired-person camera** - Cinemachine FreeLook camera that avoids obstacles 
+- 🛣 **Road system** - winding village roads with railings built using Road Architect 
+- 🌳**Rich environment** - terrain with grass, flowers, conifer trees, and country houses 
+- 🐻**Animated wildlife** - bears and wolves placed along the route 
+- 🍓**Collectible fruits** - apples, bananas, watermelons, and strawberries with rigger colliders
+- 🧮**Score UI** - on-screen fruit count with icons for each fruit type 
+- ⚙️**Modular scripts** - separate scripts for fruit logic, vehicle inverntory and UI display 
 
 ---
 
